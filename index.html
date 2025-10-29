@@ -2,13 +2,16 @@
 <html lang="kr">
   <head>
     <meta charset="UTF-8" />
-    <meta
-      name="viewport"
-      content="width=device-width,
-    initial-scale=1.0"
-    />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>SEC_AI_SOLUTION</title>
-    <sytle> #boston_regss{ cursor: pointer; color: red; } </sytle>
+    <style>
+      #boston_regss {
+        cursor: pointer;
+      }
+      #boston_regss:hover {
+        color: red;
+      }
+    </style>
   </head>
   <body>
     <h1>인공지능 솔루션 적대적 공격 위협 분석 AI 보안 전문가</h1>
@@ -20,15 +23,15 @@
       탐지 및 방어 전략 수립 - AI 모델의 취약점 분석 및 보완 - 실시간 위협
       모니터링 및 대응
     </p>
-    <h3 id="boston_regss">선형회귀분석 - 보스턴하우징 주택 가격 예층</h3>
-    /body>
-    <script>
-      const boston_regss = document.getElementById("boston_regss");
-      boston_regss.addEventListener("click", () => {
-        location.href =
-          "https://github.com/gtte777-wq/AI_SEC_V2/blob/main/boston_hosing_regression/02_boston_housing_regression.py";
-      });
-    </script>
-    /html>
+   <h3 id="boston_regss">선형회귀분석 - 보스턴하우징 주택 가격 예측 source</h3>
+    <a target="_blank" href="./Boston_housing_regression/boston.html">보스턴하우징 페이지 이동</a>
   </body>
+  <script>
+    const boston_regss = document.getElementById("boston_regss");
+    boston_regss.addEventListener("click", () => {
+      location.href =
+        "https://github.com/gtte777-wq/AI_SEC_V2/blob/main/boston_hosing_regression/02_boston_housing_regression.py"
+        ;
+    });
+  </script>
 </html>
