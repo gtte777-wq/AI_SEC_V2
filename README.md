@@ -16,7 +16,7 @@
     TAX: 1만 달러당 재산세 전액 세율  
     PTRATIO: 도시별 교사-학생 비율  
     B 1000(Bk - 0.63)^2, 여기서 Bk는 도시별 흑인 비율  
-    LSTAT: 인구 하위 계층 비율(%)  <img width="600" height="400" alt="download" src="https://github.com/user-attachments/assets/346d0b18-a471-4d97-9d7f-0a5c62f603ac" />
+    LSTAT: 인구 하위 계층 비율(%)
 
     정답 :MEDV: 자가 주택의 중간 가격(1,000달러대)    
 </pre>
